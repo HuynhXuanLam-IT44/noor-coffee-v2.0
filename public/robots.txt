@@ -1,0 +1,34 @@
+# we use React, Sanity.io as our ecommerce platform
+
+User-agent: *
+Disallow: /products
+Disallow: /products/*+*
+Disallow: /products/*%2B*
+Disallow: /products/*%2b*
+Disallow: /blog
+Disallow: /blog/*+*
+Disallow: /blog/*%2B*
+Disallow: /blog/*%2b*
+Disallow: /stores
+Disallow: /membership
+Disallow: /about
+Disallow: /feedback
+Disallow: /apple-app-site-association
+
+# Google adsbot ignores robots.txt unless specifically named!
+User-agent: adsbot-google
+Disallow: /products
+Disallow: /blog
+Disallow: /stores
+Disallow: /membership
+Disallow: /about
+Disallow: /feedback
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: Pinterest
+Crawl-delay: 1

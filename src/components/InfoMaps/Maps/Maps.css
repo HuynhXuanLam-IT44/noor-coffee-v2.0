@@ -1,0 +1,54 @@
+.map {
+	overflow: hidden;
+	height: 500px;
+	width: 100%;
+
+	background-color: white;
+
+	padding: 1rem;
+	margin-top: 16px;
+
+	border-radius: 20px;
+	-webkit-box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
+	-moz-box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
+	box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 768px) {
+	.map {
+		height: 400px;
+		width: 100vw;
+	}
+}
+
+.map .leaflet-container {
+	height: 100%;
+}
+
+.info-container {
+	width: 150px;
+}
+
+.info__logo {
+	border-radius: 8px;
+}
+.info__logo img {
+	display: inline-block;
+	height: 40px;
+
+	padding-right: 0;
+	border: 0;
+	vertical-align: middle;
+}
+
+.info__name {
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #555;
+}
+
+.info__address {
+	font-size: 16px;
+	margin-top: 5px;
+}
