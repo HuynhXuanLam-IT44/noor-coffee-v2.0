@@ -1,6 +1,6 @@
 # Project: NOOR Coffee Website v2.0
 
-### Date: Dec - 2022 to Jan - 2023
+### Date: Nov - 2022 to Jan - 2023
 
 ### Releases
 
